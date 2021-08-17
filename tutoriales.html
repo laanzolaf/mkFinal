@@ -23,159 +23,162 @@
 <body>
     
     <!-- Inicio HEADER -->
-    <header class="header">
-        
-        <div class="header__logo">
-            <a href="index.html">
-                <img src="resources/logo.png" alt="Liz Consultora Mary Kay" class="logoMk" href="index.html">
-            </a>
-        </div>  
+    <header class="header container">
+        <div class="row">
+            <div class="header__logo container col-1 col-md-1 col-lg-1">
+                <a href="index.html">
+                    <img src="resources/logo.png" alt="Liz Consultora Mary Kay" class="logoMk" href="index.html">
+                </a>
+            </div>  
 
-        <div class="header__titulo">
-            <h1 class="header__h1 display-6">
-                <div><span>Liz Anzola</span></div> Consultora Mary Kay
-            </h1>
+            <div class="container col-6 col-md-8 col-lg-10">
+                <h1 class="header__h1 fs-2">
+                    <div><span>Liz Anzola</span></div> Consultora Mary Kay
+                </h1>
+            </div>
         </div>
-
     </header>
     <!-- Fin HEADER -->
    
     <!-- Inicio NAV -->
     <nav>
         
-        <section class="menu">
-            <ul class="menu__lista">
-                <li> <a href="index.html" class="menu__link"> HOME </a> </li>
-                <li> <a href="productos.html" class="menu__link"> PRODUCTOS </a> </li>
-                <li> <a href="consultora.html" class="menu__link"> SÉ UNA CONSULTORA </a> </li>
-                <li> <a href="tutoriales.html" class="menu__link"> TUTORIALES </a> </li>
-                <li> <a href="contacto.html" class="menu__link"> CONTÁCTAME </a></li>
+        <section class="menu container-fluid">
+            <ul class="menu__lista column">
+                <li class="centrado"> <a href="index.html" class="menu__link "> HOME </a> </li>
+                <li class="centrado"> <a href="productos.html" class="menu__link "> PRODUCTOS </a> </li>
+                <li class="centrado"> <a href="consultora.html" class="menu__link "> SÉ UNA CONSULTORA </a> </li>
+                <li class="centrado"> <a href="tutoriales.html" class="menu__link "> TUTORIALES </a> </li>
+                <li class="centrado"> <a href="contacto.html" class="menu__link "> CONTÁCTAME </a></li>
             </ul>
         </section>
   
-    </nav>
+    </nav> 
     <!-- Fin NAV -->
  
     <!-- Inicio MAIN -->
     <main>
+        <div class="container">
+            <div class="row">
+                    <!-- Sección CARROUSEL -->
+                    <div class="col-11 carrusel">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="resources/car1Mascarilla.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="resources/car2Novedades.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="resources/car3Humectante.png" class="d-block w-100" alt="...">
+                            </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                
+                    <!-- Sección tutoriales -->
+                    <section class="col-11 container">
+                        <div>                   
+                            <h2>Tutoriales y Tips Mary Kay <span class="badge bg-secondary">¡Nuevos!</span></h2>
+                        </div>  
+                        <div>
+                            <h3>Maquillaje Mary Kay</h3>
+                        </div>       
+                        <div class="container">
+                            <div class="row">
 
-        <!-- Sección CARROUSEL -->
-        <div>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="resources/car1Mascarilla.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="resources/car2Novedades.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="resources/car3Humectante.png" class="d-block w-100" alt="...">
-                </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-                </button>
+                                <div class="col-sm-12 col-md-6 col-lg-6" id="">
+                                    <div class="container">
+                                        
+                                        <div class="ratio ratio-16x9 video">
+                                            <video controls>
+                                                <source src="resources/videocejas.mp4"> 
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12 col-md-6 col-lg-6" id="">
+                                    <div class="container">
+                                        <div class="ratio ratio-16x9 video">
+                                            <video controls>
+                                                <source src="resources/maquillaje1.mp4"> 
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                        <div class="container">
+                            <div class="row">
+
+                                <div class="col-sm-12 col-md-6 col-lg-6" id="">
+                                    <div class="container">
+                                        
+                                        <div class="ratio ratio-16x9 video">
+                                            <video controls>
+                                                <source src="resources/maquillaje2.mp4"> 
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12 col-md-6 col-lg-6" id="">
+                                    <div class="container">
+                                        <div class="ratio ratio-16x9 video">
+                                            <video controls>
+                                                <source src="resources/maquillaje3.mp4"> 
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3>Cuidado de tu piel Mary Kay</h3>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+
+                                <div class="col-sm-12 col-md-6 col-lg-6" id="">
+                                    <div class="container">
+                                        
+                                        <div class="ratio ratio-16x9 video">
+                                            <video controls>
+                                                <source src="resources/piel1.mp4"> 
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12 col-md-6 col-lg-6" id="">
+                                    <div class="container">
+                                        <div class="ratio ratio-16x9 video">
+                                            <video controls>
+                                                <source src="resources/piel2.mp4"> 
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </section>
             </div>
         </div>
-      
-        <!-- Sección tutoriales -->
-        <section class="container">
-            <div>                   
-                <h2>Tutoriales y Tips Mary Kay <span class="badge bg-secondary">¡Nuevos!</span></h2>
-            </div>  
-            <div>
-                <h3>Maquillaje Mary Kay</h3>
-            </div>       
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-sm-12 col-md-6 col-lg-6" id="">
-                        <div class="container">
-                            
-                            <div class="ratio ratio-16x9 video">
-                                <video controls>
-                                    <source src="resources/videocejas.mp4"> 
-                                </video>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-lg-6" id="">
-                        <div class="container">
-                            <div class="ratio ratio-16x9 video">
-                                <video controls>
-                                    <source src="resources/videocejas.mp4"> 
-                                </video>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-               
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-sm-12 col-md-6 col-lg-6" id="">
-                        <div class="container">
-                            
-                            <div class="ratio ratio-16x9 video">
-                                <video controls>
-                                    <source src="resources/videocejas.mp4"> 
-                                </video>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-lg-6" id="">
-                        <div class="container">
-                            <div class="ratio ratio-16x9 video">
-                                <video controls>
-                                    <source src="resources/videocejas.mp4"> 
-                                </video>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-             <div>
-                  <h3>Cuidado de tu piel Mary Kay</h3>
-            </div>
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-sm-12 col-md-6 col-lg-6" id="">
-                        <div class="container">
-                            
-                            <div class="ratio ratio-16x9 video">
-                                <video controls>
-                                    <source src="resources/videocejas.mp4"> 
-                                </video>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-lg-6" id="">
-                        <div class="container">
-                            <div class="ratio ratio-16x9 video">
-                                <video controls>
-                                    <source src="resources/videocejas.mp4"> 
-                                </video>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
        
     </main>
     <!-- Fin MAIN -->

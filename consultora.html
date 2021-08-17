@@ -23,37 +23,37 @@
 <body>
     
     <!-- Inicio HEADER -->
-    <header class="header">
-        
-        <div class="header__logo">
-            <a href="index.html">
-                <img src="resources/logo.png" alt="Liz Consultora Mary Kay" class="logoMk" href="index.html">
-            </a>
-        </div>  
+    <header class="header container">
+        <div class="row">
+            <div class="header__logo container col-1 col-md-1 col-lg-1">
+                <a href="index.html">
+                    <img src="resources/logo.png" alt="Liz Consultora Mary Kay" class="logoMk" href="index.html">
+                </a>
+            </div>  
 
-        <div class="header__titulo">
-            <h1 class="header__h1 display-6">
-                <div><span>Liz Anzola</span></div> Consultora Mary Kay
-            </h1>
+            <div class="container col-6 col-md-8 col-lg-10">
+                <h1 class="header__h1 fs-2">
+                    <div><span>Liz Anzola</span></div> Consultora Mary Kay
+                </h1>
+            </div>
         </div>
-
     </header>
     <!-- Fin HEADER -->
   
     <!-- Inicio NAV -->
     <nav>
         
-        <section class="menu">
-            <ul class="menu__lista">
-                <li> <a href="index.html" class="menu__link"> HOME </a> </li>
-                <li> <a href="productos.html" class="menu__link"> PRODUCTOS </a> </li>
-                <li> <a href="consultora.html" class="menu__link"> SÉ UNA CONSULTORA </a> </li>
-                <li> <a href="tutoriales.html" class="menu__link"> TUTORIALES </a> </li>
-                <li> <a href="contacto.html" class="menu__link"> CONTÁCTAME </a></li>
+        <section class="menu container-fluid">
+            <ul class="menu__lista column">
+                <li class="centrado"> <a href="index.html" class="menu__link "> HOME </a> </li>
+                <li class="centrado"> <a href="productos.html" class="menu__link "> PRODUCTOS </a> </li>
+                <li class="centrado"> <a href="consultora.html" class="menu__link "> SÉ UNA CONSULTORA </a> </li>
+                <li class="centrado"> <a href="tutoriales.html" class="menu__link "> TUTORIALES </a> </li>
+                <li class="centrado"> <a href="contacto.html" class="menu__link "> CONTÁCTAME </a></li>
             </ul>
         </section>
   
-    </nav>
+    </nav> 
     <!-- Fin NAV -->
    
     <!-- Inicio MAIN -->
@@ -68,7 +68,7 @@
                     </div>
 
                     <div class="consultora__boton1">
-                        <a href="contacto.html" class="btn btn-danger btn-sm consultora__boton">¡Quiero contactarte para ser Consultora Mary Kay!</a>
+                        <a href="contacto.html" class="btn btn-danger btn-sm consultora__boton">¡Quiero contactarte para ser Consultora!</a>
                     </div>
 
                     <div class="consultora__ganancias">
@@ -78,51 +78,65 @@
             
             
             <!-- Seccion explicacion ganancias -->
-            
-                <div class="consultora__artpasos">
-                    <div>
-                        <h2>Pasos para empezar tu negocio independiente</h2>
-                    </div>
-                    <div>
-                        <h3>Mary Kay</h3>
-                    </div>
-                    <ol class="textoNormal">
-                        <li>Contáctame para que cuente lo increíble de este negocio, te ayudaré a registrarte y guiarte para comenzar.</li>
-                        <li><span class="textoNegrilla">¡Inicia tu negocio independiente!</span> Adquiere tu kit de Belleza y no te pierdas de las promociones especiales que tenemos para ti como Nueva Consultora Independiente Mary Kay.</li>
-                        <li><span class="textoNegrilla">¡Estas listas!</span>Inaugura tu nuevo negocio y comienza a ganar junto a Mary Kay desde el primer día.</li>
-                        
-                    </ol>
-                </div>  
+                <div class="container">
+                    <div class="row">
+                        <div class="col-0 col-md-1 col-lg-2">
+                     
+                        </div>
+                        <div class="consultora__artpasos col-12 col-md-5 col-lg-4">
+                            <div>
+                                <h2>Pasos para empezar tu negocio independiente</h2>
+                            </div>
+                            <div>
+                                <h3>Mary Kay</h3>
+                            </div>
+                            <ol class="textoNormal">
+                                <li>Contáctame para que cuente lo increíble de este negocio, te ayudaré a registrarte y guiarte para comenzar.</li>
+                                <li><span class="textoNegrilla">¡Inicia tu negocio independiente!</span> Adquiere tu kit de Belleza y no te pierdas de las promociones especiales que tenemos para ti como Nueva Consultora Independiente Mary Kay.</li>
+                                <li><span class="textoNegrilla">¡Estas listas!</span>Inaugura tu nuevo negocio y comienza a ganar junto a Mary Kay desde el primer día.</li>
+                                
+                            </ol>
+                        </div>  
 
-                <div class="consultora__imgpasos">
-                    <img src="resources/pasos.png" alt="Foto pasos para ser consultora" class="img-thumbnail rounded mx-auto d-block" >
+                        <div class="consultora__imgpasos col-12 col-md-5 col-lg-4">
+                            <img src="resources/pasos.png" alt="Foto pasos para ser consultora" class="img-thumbnail rounded mx-auto d-block" >
+                        </div> 
+                        <div class="col-0 col-md-1 col-lg-2">
+                     
+                        </div>
+                    </div>
+                    <div class="consultora__boton2 centrado ">
+                        <a href="contacto.html" class="btn btn-danger btn-sm consultora__boton">¡Quiero ser Consultora Mary Kay!</a>
+                    </div> 
                 </div> 
                 
-                <div class="consultora__boton2">
-                    <a href="contacto.html" class="btn btn-danger btn-sm consultora__boton">¡Quiero ser Consultora Mary Kay!</a>
-                </div>
-            
         
             <!-- Seccion testimonio y mensaje-->
-            
-                <div class="consultora__arttest">      
-                    
-                        
-                        <div>
-                            <h2>Mi testimonio - Consultora Independiente</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-0 col-md-1 col-lg-2">
+                 
+                    </div>
+                        <div class="consultora__arttest col-12 col-md-5 col-lg-4">          
+                                <div>
+                                    <h2>Mi testimonio - Consultora Independiente</h2>
+                                </div>
+                                <div>
+                                    <p class="textoNormal">"Una desición puede marcar la diferencia en tu vida." Para mí ser consulotora independiente Mary Kay cambió la mía, mi imagen, mi salud, mi economía y ahora tengo la vida que deseo y ¡voy por más! Pero quiero ayudar a más muejeres poderosas como tú a empoderarse e inciar su propio negocio.</p>
+                                </div>
                         </div>
-                        <div>
-                            <p class="textoNormal">"Una desición puede marcar la diferencia en tu vida." Para mí ser consulotora independiente Mary Kay cambió la mía, mi imagen, mi salud, mi economía y ahora tengo la vida que deseo y ¡voy por más! Pero quiero ayudar a más muejeres poderosas como tú a empoderarse e inciar su propio negocio.</p>
+                        <div class="consultora__imgtest col-12 col-md-5 col-lg-4">
+                            <img src="resources/fotoliz.jpg" alt="Foto Liz" class="img-thumbnail rounded mx-auto d-block" >
                         </div>
-                
+                    <div class="col-0 col-md-1 col-lg-2">
+                     
+                    </div>
                 </div>
-                <div class="consultora__imgtest">
-                    <img src="resources/fotoliz.jpg" alt="Foto Liz" class="img-thumbnail rounded mx-auto d-block" >
-                </div>
-
-                <div class="consultora__mensaje">
-                    <img src="resources/mensajeconsultora.png" alt="Imagen con frase de Mary kay Ash" class="container-fluid">
-                </div>   
+                <div class="consultora__mensaje row">
+                    <img src="resources/mensajeconsultora.png" alt="Imagen con frase de Mary kay Ash" class="container-fluid img-thumbnail rounded mx-auto d-block">
+                </div>  
+            </div>
+             
 
         </section>
 

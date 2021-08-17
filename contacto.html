@@ -23,41 +23,41 @@
 <body>
     
     <!-- Inicio HEADER -->
-    <header class="header">
-        
-        <div class="header__logo">
-            <a href="index.html">
-                <img src="resources/logo.png" alt="Liz Consultora Mary Kay" class="logoMk" href="index.html">
-            </a>
-        </div>  
+    <header class="header container">
+        <div class="row">
+            <div class="header__logo container col-1 col-md-1 col-lg-1">
+                <a href="index.html">
+                    <img src="resources/logo.png" alt="Liz Consultora Mary Kay" class="logoMk" href="index.html">
+                </a>
+            </div>  
 
-        <div class="header__titulo">
-            <h1 class="header__h1 display-6">
-                <div><span>Liz Anzola</span></div> Consultora Mary Kay
-            </h1>
+            <div class="container col-6 col-md-8 col-lg-10">
+                <h1 class="header__h1 fs-2">
+                    <div><span>Liz Anzola</span></div> Consultora Mary Kay
+                </h1>
+            </div>
         </div>
-
     </header>
     <!-- Fin HEADER -->
   
     <!-- Inicio NAV -->
     <nav>
         
-        <section class="menu">
-            <ul class="menu__lista">
-                <li> <a href="index.html" class="menu__link"> HOME </a> </li>
-                <li> <a href="productos.html" class="menu__link"> PRODUCTOS </a> </li>
-                <li> <a href="consultora.html" class="menu__link"> SÉ UNA CONSULTORA </a> </li>
-                <li> <a href="tutoriales.html" class="menu__link"> TUTORIALES </a> </li>
-                <li> <a href="contacto.html" class="menu__link"> CONTÁCTAME </a></li>
+        <section class="menu container-fluid">
+            <ul class="menu__lista column">
+                <li class="centrado"> <a href="index.html" class="menu__link "> HOME </a> </li>
+                <li class="centrado"> <a href="productos.html" class="menu__link "> PRODUCTOS </a> </li>
+                <li class="centrado"> <a href="consultora.html" class="menu__link "> SÉ UNA CONSULTORA </a> </li>
+                <li class="centrado"> <a href="tutoriales.html" class="menu__link "> TUTORIALES </a> </li>
+                <li class="centrado"> <a href="contacto.html" class="menu__link "> CONTÁCTAME </a></li>
             </ul>
         </section>
   
-    </nav>
+    </nav> 
     <!-- Fin NAV -->
   
     <!-- Inicio MAIN -->
-    <main>
+    <main class="formulario">
 
         <section>
             
@@ -102,7 +102,7 @@
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked required>
                     <label class="form-check-label" for="flexSwitchCheckChecked">Aceptas que te contacte a tu correo electrónico o al celular para darte respuesta. *</label>
                 </div>       
-                <div class="centrado">
+                <div class="centrado botonFormulario">
                     <input type="submit" value="Enviar" class="btn btn-danger btn-sm consultora__boton">
                 </div>
                 <div class="derecha">

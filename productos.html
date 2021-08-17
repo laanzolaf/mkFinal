@@ -23,33 +23,33 @@
 <body>
     
     <!-- Inicio HEADER -->
-    <header class="header">
-        
-        <div class="header__logo">
-            <a href="index.html">
-                <img src="resources/logo.png" alt="Liz Consultora Mary Kay" class="logoMk" href="index.html">
-            </a>
-        </div>  
+    <header class="header container">
+        <div class="row">
+            <div class="header__logo container col-1 col-md-1 col-lg-1">
+                <a href="index.html">
+                    <img src="resources/logo.png" alt="Liz Consultora Mary Kay" class="logoMk" href="index.html">
+                </a>
+            </div>  
 
-        <div class="header__titulo">
-            <h1 class="header__h1 display-6">
-                <div><span>Liz Anzola</span></div> Consultora Mary Kay
-            </h1>
+            <div class="container col-6 col-md-8 col-lg-10">
+                <h1 class="header__h1 fs-2">
+                    <div><span>Liz Anzola</span></div> Consultora Mary Kay
+                </h1>
+            </div>
         </div>
-
     </header>
     <!-- Fin HEADER -->
 
     <!-- Inicio NAV -->
-    <nav  id="nav">
+    <nav>
         
-        <section class="menu">
-            <ul class="menu__lista">
-                <li> <a href="index.html" class="menu__link"> HOME </a> </li>
-                <li> <a href="productos.html" class="menu__link"> PRODUCTOS </a> </li>
-                <li> <a href="consultora.html" class="menu__link"> SÉ UNA CONSULTORA </a> </li>
-                <li> <a href="tutoriales.html" class="menu__link"> TUTORIALES </a> </li>
-                <li> <a href="contacto.html" class="menu__link"> CONTÁCTAME </a></li>
+        <section class="menu container-fluid">
+            <ul class="menu__lista column">
+                <li class="centrado"> <a href="index.html" class="menu__link "> HOME </a> </li>
+                <li class="centrado"> <a href="productos.html" class="menu__link "> PRODUCTOS </a> </li>
+                <li class="centrado"> <a href="consultora.html" class="menu__link "> SÉ UNA CONSULTORA </a> </li>
+                <li class="centrado"> <a href="tutoriales.html" class="menu__link "> TUTORIALES </a> </li>
+                <li class="centrado"> <a href="contacto.html" class="menu__link "> CONTÁCTAME </a></li>
             </ul>
         </section>
   
@@ -60,134 +60,144 @@
     <main >
         
         <!-- Seccion catalogo y promociones -->
-        <section class="catalogoPromociones">
-            <div class="catalogoPromociones__cat">
-                <div class="centrado">
-                    <h2>
-                        CATÁLOGO
-                    </h2>
+        <section class="catalogoPromociones container">
+            <div class="row">
+                <div class="col-0 col-md-1 col-lg-2">
+                     
                 </div>
-                <div>
-                    <img src="resources/catalogo.jpg" alt="Imagen Catálogo" class="img-thumbnail rounded mx-auto d-block">
+                <div class="catalogoPromociones__cat col-12 col-md-5 col-lg-4">
+                    <div class="centrado">
+                        <h2>
+                            CATÁLOGO
+                        </h2>
+                    </div>
+                    <div>
+                        <img src="resources/catalogo.jpg" alt="Imagen Catálogo" class="img-thumbnail rounded mx-auto d-block">
+                    </div>
+                    <div class="derecha">
+                        <a href="https://drive.google.com/file/d/1J_4MSGFJHKIqP6GRvb7w7nyiPGJ9fQbs/view?usp=sharing" target="_blank">Ver Catálogo</a>
+                    </div>
                 </div>
-                <div class="derecha">
-                    <a href="https://drive.google.com/file/d/1J_4MSGFJHKIqP6GRvb7w7nyiPGJ9fQbs/view?usp=sharing" target="_blank">Ver Catálogo</a>
+                <div class="catalogoPromociones__promo col-12 col-md-5 col-lg-4">
+                    <div class="centrado">
+                        <h2>
+                            PROMOCIONES
+                        </h2>
+                    </div>
+                    <div>
+                        <img src="resources/promo.jpg" alt="Imagen Promociones" class="img-thumbnail rounded mx-auto d-block">
+                    </div>
+                    <div class="derecha">
+                        <a href="https://drive.google.com/file/d/1EUCHODY_hUfVzDlVKRuA3xlkBNpDfyx2/view?usp=sharing" target="_blank">Ver todas</a>
+                    </div>
                 </div>
-            </div>
-            <div class="catalogoPromociones__promo">
-                <div class="centrado">
-                    <h2>
-                        PROMOCIONES
-                    </h2>
-                </div>
-                <div>
-                    <img src="resources/promo.jpg" alt="Imagen Promociones" class="img-thumbnail rounded mx-auto d-block">
-                </div>
-                <div class="derecha">
-                    <a href="https://drive.google.com/file/d/1EUCHODY_hUfVzDlVKRuA3xlkBNpDfyx2/view?usp=sharing" target="_blank">Ver todas</a>
+                <div class="col-0 col-md-1 col-lg-2">
+                     
                 </div>
             </div>
         </section>
    
         <!-- Seccion navegacion segundaria -->
-        <section class="container-fluid">
-            <nav>
-                <ul class="navSecundario__lista">
-                    <li> <a href="#productos__maquillaje" class="navSecundario__link">Maquillaje</a> </li>
-                    <li> <a href="#productos__piel" class="navSecundario__link">Cuidado de tu piel</a> </li>
-                    <li> <a href="#productos__cuerpo" class="navSecundario__link">Cuidado de tu cuerpo</a> </li>
-                </ul>
-            </nav>
-        </section>
- 
-        <!-- Seccion maquillaje Mary Kay -->
-        <section class="productos container-fluid">
-            <section class="productos__maquillaje container-fluid">
-                <div>
-                    <div>
-                        <h3 id="productos__maquillaje">
-                            Maquillaje Mary Kay
-                        </h3>
-                    </div>
-                    <div>
-                        <p class="textoNormal">Con Mary Kay podras encontrar tu maquillaje ideal con todos los colores clásicos y de moda. Siempre de la mejor calidad y productos de alta cosmética que cuidarán tu piel.</p>
-                    </div>
-                </div>
-
-                <div class="filaFlex">
-                    <div>
-                        <img src="resources/rostro.jpg" alt="Imagen Rostro" class="imgProductos ">
-                    </div>
-                    <div>
-                        <img src="resources/labios.jpg" alt="Imagen Labios" class="imgProductos ">
-                    </div>
-                    <div>
-                        <img src="resources/ojos.jpg" alt="Imagen Ojos" class="imgProductos ">
-                    </div>
-                    <div>
-                        <img src="resources/accesorios.jpg" alt="Imagen Accesorios" class="imgProductos ">
-                    </div>
-                </div>
-                <div class="derecha">
-                    <a href="#nav">Subir</a>
-                </div>
-            </section>
-    
-            <!-- Seccion cuidado de la piel Mary Kay -->
-            <section class="productos__piel container-fluid">
-                <div>
-                    <div>
-                        <h3 id="productos__piel">
-                            Cuidado de tu piel Mary Kay
-                        </h3>
-                    </div>
-                    <div>
-                        <p class="textoNormal">Mary Kay te ofrece lo que necesitas para que encuentres una rutina del cuidado de la piel ideal para ti. Explora las líneas de cuidado en el catálogo para encontrar los productos de skincare que tu piel necesita.</p>
-                    </div>
-                </div>
-                <div class="filaFlex">
-                    <div>
-                        <img src="resources/pieljoven.jpg" alt="Imagen Pieles Jóvenes" class="imgProductos ">
-                    </div>
-                    <div>
-                        <img src="resources/pielprevencion.jpg" alt="Imagen Prevención" class="imgProductos ">
-                    </div>
-                    <div>
-                        <img src="resources/pielmadura.jpg" alt="Imagen Pieles Maduras" class="imgProductos ">
-                    </div>
-                    <div>
-                        <img src="resources/pielcomplemento.jpg" alt="Imagen Complementos" class="imgProductos ">
-                    </div>
-                </div>
-                <div class="derecha">
-                    <a href="#nav">Subir</a>
-                </div>
-            </section>
+        <nav class="container">
+            <ul class="navSecundario__lista column">
+                <li> <a href="#productos__maquillaje" class="navSecundario__link">Maquillaje</a> </li>
+                <li> <a href="#productos__piel" class="navSecundario__link">Cuidado de tu piel</a> </li>
+                <li> <a href="#productos__cuerpo" class="navSecundario__link">Cuidado de tu cuerpo</a> </li>
+            </ul>
+        </nav>
         
-            <!-- Seccion cuidado del cuerpo Mary Kay -->
-            <section class="productos__cuerpo container-fluid">
-                <div>
+        <!-- Seccion productos -->
+        <section class="productos container">
+
+            <div class="row">
+                <!-- Seccion maquillaje Mary Kay -->
+                <section class="productos__maquillaje col-12 col-md-12 col-lg-12">
                     <div>
-                        <h3 id="productos__cuerpo">
-                            Cuidado de tu cuerpo Mary Kay
-                        </h3>
+                        <div>
+                            <h3 id="productos__maquillaje">
+                                Maquillaje Mary Kay
+                            </h3>
+                        </div>
+                        <div>
+                            <p class="textoNormal">Con Mary Kay podras encontrar tu maquillaje ideal con todos los colores clásicos y de moda. Siempre de la mejor calidad y productos de alta cosmética que cuidarán tu piel.</p>
+                        </div>
                     </div>
-                    <div>
-                        <p class="textoNormal">Cuida y protege la piel de tu cuerpo, recuerda que la piel del rostro y del cuerpo son diferentes, nececitas productos para cada uno.</p>
+
+                    <div class="filaFlex">
+                        <div>
+                            <img src="resources/rostro.jpg" alt="Imagen Rostro" class="imgProductos ">
+                        </div>
+                        <div>
+                            <img src="resources/labios.jpg" alt="Imagen Labios" class="imgProductos ">
+                        </div>
+                        <div>
+                            <img src="resources/ojos.jpg" alt="Imagen Ojos" class="imgProductos ">
+                        </div>
+                        <div>
+                            <img src="resources/accesorios.jpg" alt="Imagen Accesorios" class="imgProductos ">
+                        </div>
                     </div>
-                </div>
-                <div class="filaFlex">
-                    <div>
-                        <img src="resources/manos.jpg" alt="Imagen Manos" class="imgProductos ">
+                    <div class="derecha">
+                        <a href="#nav">Subir</a>
                     </div>
+                </section>
+                
+                <!-- Seccion cuidado de la piel Mary Kay -->
+                <section class="productos__piel col-12 col-md-12 col-lg-12">
                     <div>
-                        <img src="resources/cuerpo.jpg" alt="Imagen Cuerpo" class="imgProductos ">
-                    </div> 
-                </div>
-                <div class="derecha">
-                    <a href="#nav">Subir</a>
-                </div>           
-            </section>
+                        <div>
+                            <h3 id="productos__piel">
+                                Cuidado de tu piel Mary Kay
+                            </h3>
+                        </div>
+                        <div>
+                            <p class="textoNormal">Mary Kay te ofrece lo que necesitas para que encuentres una rutina del cuidado de la piel ideal para ti. Explora las líneas de cuidado en el catálogo para encontrar los productos de skincare que tu piel necesita.</p>
+                        </div>
+                    </div>
+                    <div class="filaFlex">
+                        <div>
+                            <img src="resources/pieljoven.jpg" alt="Imagen Pieles Jóvenes" class="imgProductos ">
+                        </div>
+                        <div>
+                            <img src="resources/pielprevencion.jpg" alt="Imagen Prevención" class="imgProductos ">
+                        </div>
+                        <div>
+                            <img src="resources/pielmadura.jpg" alt="Imagen Pieles Maduras" class="imgProductos ">
+                        </div>
+                        <div>
+                            <img src="resources/pielcomplemento.jpg" alt="Imagen Complementos" class="imgProductos ">
+                        </div>
+                    </div>
+                    <div class="derecha">
+                        <a href="#nav">Subir</a>
+                    </div>
+                </section>
+        
+                <!-- Seccion cuidado del cuerpo Mary Kay -->
+                <section class="productos__cuerpo col-12 col-md-10 col-lg-8">
+                    <div>
+                        <div>
+                            <h3 id="productos__cuerpo">
+                                Cuidado de tu cuerpo Mary Kay
+                            </h3>
+                        </div>
+                        <div>
+                            <p class="textoNormal">Cuida y protege la piel de tu cuerpo, recuerda que la piel del rostro y del cuerpo son diferentes, nececitas productos para cada uno.</p>
+                        </div>
+                    </div>
+                    <div class="filaFlex">
+                        <div>
+                            <img src="resources/manos.jpg" alt="Imagen Manos" class="imgProductos ">
+                        </div>
+                        <div>
+                            <img src="resources/cuerpo.jpg" alt="Imagen Cuerpo" class="imgProductos ">
+                        </div> 
+                    </div>
+                    <div class="derecha">
+                        <a href="#nav">Subir</a>
+                    </div>           
+                </section>
+            </div>
         </section>
     
     </main>
